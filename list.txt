@@ -1,0 +1,1198 @@
+job (n)
+δουλειά
+artist (n)
+καλλιτέχνης
+doctor (n)  
+γιατρός
+driver (n)
+οδηγός
+engineer (n)
+μηχανικός
+explorer (n)
+εξερευνητής
+filmmaker (n)
+παραγωγός ταινιών
+photographer (n)
+φωτογράφος
+scientist (n)
+επιστήμονας
+teacher (n)
+δάσκαλος
+writer (n)
+συγγραφέας
+American  (adj)
+Αμερικανός
+Brazilian (adj)
+Βραζιλιάνος
+British (adj)
+Βρετανός
+Canadian (adj)
+Καναδός
+Chinese (adj)
+Κινέζος
+Egyptian (adj)
+Αιγύπτιος
+French (adj)
+Γάλλος
+German (adj) 
+Γερμανός
+Indian (adj)
+Ινδός
+Italian (adj)
+Ιταλός
+Japanese (adj)
+Ιάπωνας
+Mexican (adj)
+Μεξικανός
+Nepalese (adj)
+Νεπαλέζος
+Omani (adj)
+Ομάνι
+Spanish (adj)
+Ισπανός
+Jamaican (adj)
+Τζαμαϊκανός
+mobile (n)
+κινητό τηλέφωνο
+goodbye (n)
+αντίο
+goodnight (n)
+καληνύχτα
+meet (v) 
+γνωρίζω
+sign (v)
+υπογράφω
+animal (n)
+ζώο
+beautiful (adj)
+όμορφος
+climber (n)
+ορειβάτης
+fantastic (adj)
+φανταστικός
+favourite (adj)
+αγαπημένος
+fisherwoman (n)
+γυναίκα ψαράς
+happy (adj)
+ευτυχισμένος
+hunter (n)
+κυνηγός
+lion (n)
+λιοντάρι
+ocean (n)
+ωκεανός
+place (n)
+μέρος
+river (n)
+ποτάμι
+water buffalo (n)
+υδρόβιος βούβαλος
+whale (n)
+φάλαινα
+beach (n)
+παραλία
+island (n)
+νησί
+city (n)
+πόλη
+Australian (adj)
+Αυστραλός
+desert (n)
+έρημος
+holiday (n)
+διακοπές
+tent (n)
+σκηνή
+trek (n)
+μακρύ ταξίδι
+cold (adj)
+κρύος
+degree (n)
+βαθμός
+hot (adj)
+ζεστός
+hotel (n)
+ξενοδοχείο
+nice (adj)
+ωραίος
+airport (n)
+αεροδρόμιο
+black (adj)
+μαύρο
+blue (adj)
+μπλε
+brown (adj)
+καφέ
+bus (n)
+λεωφορείο
+car (n)
+αυτοκίνητο
+green (adj)
+πράσινο
+grey (adj)
+γκρι
+lake (n)
+λίμνη
+mountain (n)
+βουνό
+old (adj)
+παλιός
+orange (adj)
+πορτοκαλί
+pink (adj)
+ροζ
+red (adj)
+κόκκινο
+white (adj)
+λευκό
+yellow (adj)
+κίτρινο
+address (n)
+διεύθυνση
+business (n)
+επιχείρηση
+key (n)
+κλειδί
+postcode (n)
+ταχυδρομικός κώδικας
+registration (n)
+εγγραφή
+amazing (adj)
+εκπληκτικός
+boat (n)
+πλοίο
+continent (n)
+ήπειρος
+difficult (adj)
+δύσκολος
+ice (n)
+πάγος
+penguin (n)
+πιγκουίνος
+seal (n)
+φώκια
+temperature (n)
+θερμοκρασία
+typical (adj)
+τυπικός
+brother (n)
+αδερφός
+daughter (n)
+κόρη
+father (n)
+πατέρας
+mother (n)
+μητέρα
+parent (n)
+γονιός
+sister (n)
+αδερφή
+son (n)
+γιος
+child (n)
+παιδί
+cousin (n)
+ξάδερφος
+dead (adj)
+νεκρός
+environmentalist (n)
+οικολόγος
+family (n)
+οικογένεια
+famous (adj)
+διάσημος
+granddaughter (n)
+εγγονή
+grandmother (n)
+γιαγιά
+marine (adj)
+θαλάσσιος
+scuba diver (n)
+δύτης
+anniversary (n)
+επέτειος
+April (n)
+Απρίλιος
+August (n)
+Αύγουστος
+birthday (n)
+γενέθλια
+December (n)
+Δεκέμβριος
+February (n)
+Φεβρουάριος
+January (n)
+Ιανουάριος
+July (n)
+Ιούλιος
+June (n)
+Ιούνιος
+March (n)
+Μάρτιος
+May (n)
+Μάιος
+November (n)
+Νοέμβριος
+October (n)
+Οκτώβριος
+September (n)
+Σεπτέμβριος
+sure (adj)
+σίγουρος
+wedding (n)
+γάμος
+year (n)
+χρόνος
+big (adj)
+μεγάλος
+home (n)
+σπίτι
+meeting (n)
+συνάντηση
+office (n)
+γραφείο
+poor (adj)
+φτωχός
+rich (adj)
+πλούσιος
+small (adj)
+μικρός
+young (adj)
+νεαρός
+baby (n)
+μωρό
+congratulations (n)
+συγχαρητήρια
+engaged (adj)
+αρραβωνιασμένος
+engagement (n)
+αρραβώνας
+follow (v)
+ακολουθώ
+great (adj)
+περίφημος
+kind (adj)
+ευγενικός
+lovely (adj)
+αξιαγάπητος
+party (n)
+πάρτι
+welcome (adj)
+ευπρόσδεκτος
+capital (n)
+πρωτεύουσα
+country (n)
+χώρα
+farmer (n)
+αγρότης
+ger (n)
+Γκερ
+taxi driver (n)
+οδηγός ταξί
+building (n)
+κτήριο
+new (adj)
+νέος
+tower (n)
+πύργος
+bank (n)
+τράπεζα
+bus station (n)
+σταθμός λεωφορείων
+café (n)
+καφέ
+car park (n)
+πάρκινγκ αυτοκινήτων
+cinema (n)
+σινεμά
+information centre (n)
+κέντρο πληροφοριών
+market (n)
+αγορά
+museum (n)
+μουσείο
+near (prep)
+κοντά
+next to (prep)
+δίπλα σε
+opposite (prep)
+αντίθετα
+park (n)
+πάρκο
+train station (n)
+σιδηροδρομικός σταθμός
+bell (n)
+καμπάνα
+Friday (n)
+Παρασκευή
+guidebook (n)
+ταξιδιωτικός οδηγός
+map (n)
+χάρτης
+Monday (n)
+Δευτέρα
+open (adj)
+ανοιχτός
+Saturday (n)
+Σάββατο
+Sunday (n)
+Κυριακή
+Thursday (n)
+Πέμπτη
+timetable (n)
+χρονοδιάγραμμα
+tourist (n)
+τουρίστας
+Tuesday (n)
+Τρίτη
+vertical (adj)
+κάθετος
+Wednesday (n)
+Τετάρτη
+beginning (n)
+έναρξη
+closed (adj)
+κλειστός
+end (n)
+τέλος
+midday (n)
+μεσημέρι
+restaurant (n)
+εστιατόριο
+time zone (n)
+ζώνη ώρας
+cake (n)
+κέικ
+coffee (n)
+καφές
+fruit juice (n)
+φρουτοχυμός
+mineral water (n)
+μεταλλικό νερό
+salad (n)
+σαλάτα
+sandwich (n)
+σάντουιτς
+tea (n)
+τσάι
+large (adj)
+μεγάλος
+art (n)
+τέχνη
+bridge (n)
+γέφυρα
+garden (n)
+κήπος
+lights (n)
+φώτα
+shopping street (n)
+εμπορικός δρόμος
+sign (n)
+πινακίδα
+snack bar (n)
+σνακ μπαρ
+surf (v)
+κάνω σερφ
+symbol (n)
+σύμβολο
+air (n)
+αέρας
+fly (v)
+πετώ
+robot (n)
+ρομπότ
+toy (n)
+παιχνίδι
+basket (n)
+καλάθι
+carry (v)
+μεταφέρω
+cook (v)
+μαγειρεύω
+drive (v)
+οδηγώ
+generation (n)
+γενιά
+intelligent (adj)
+έξυπνος
+move (v)
+κινώ
+play (v)
+παίζω
+ride (v)
+ιππεύω
+run (v)
+τρέχω
+see (v)
+βλέπω
+sing (v)
+τραγουδώ
+speak (v)
+μιλώ
+supermarket (n)
+σουπερμάρκετ
+swim (v)
+κολυμπώ
+technology (n)
+τεχνολογία
+backpack (n)
+σακίδιο 
+camera (n)
+φωτογραφική μηχανή
+headphones (n)
+ακουστικά
+MP3 player (n)
+συσκευή αναπαραγωγής ΜΡ3
+video camera (n)
+βιντεοκάμερα
+webcam (n)
+κάμερα web
+basic (adj)
+βασικός
+bowl (n)
+μπολ
+box (n)
+πλαίσιο
+cheap (adj)
+φτηνός
+design (n)
+σχέδιο
+electric (adj)
+ηλεκτρικός
+gas (n)
+αέριο
+heat (v)
+θερμαίνω
+lid (n)
+καπάκι
+maximum (n)
+μέγιστος
+newspaper (n)
+εφημερίδα
+oven (n)
+φούρνος
+panel (n)
+πάνελ
+pot (n)
+κατσαρόλα
+solar (adj)
+ηλιακός
+sun (n)
+ήλιος
+alarm clock (n)
+ξυπνητήρι
+dollar (n)
+δολάριο
+euro (n)
+ευρώ
+expensive (adj)
+ακριβός
+image (n)
+εικόνα
+memory stick (n)
+στικάκι
+pound (n)
+λίρα
+quality (n)
+ποιότητα
+radio (n)
+ραδιόφωνο
+appointment (n)
+ραντεβού
+busy (adj)
+απασχολημένος
+diary (n)
+ημερολόγιο
+gadget (n)
+μικροσυσκευή
+kitchen (n)
+κουζίνα
+laptop (n)
+φορητός υπολογιστής
+microwave (n)
+φούρνος μικροκυμάτων
+organise (v)
+οργανώνω
+fan (n)
+θαυμαστής
+football (n)
+ποδόσφαιρο
+international (adj)
+διεθνής
+passionate (adj)
+παθιασμένος
+prize (n)
+βραβείο
+rugby (n)
+ράγκμπι
+team (n)
+ομάδα
+cheese (n)
+τυρί
+chocolate (n)
+σοκολάτα
+competition (n)
+διαγωνισμός
+dish (n)
+πιάτο
+egg (n)
+αβγό
+fish (n)
+ψάρι
+fruit (n)
+φρούτο
+giant (adj)
+γιγάντιος
+meat (n)
+κρέας
+pasta (n)
+ζυμαρικά
+pumpkin pie (n)
+κολοκυθόπιτα
+rice (n)
+ρύζι
+tennis (n)
+τένις
+traditional (adj)
+παραδοσιακός
+vegetable (n)
+λαχανικό
+action (n)
+πράξη
+bird (n)
+πουλί
+comedy (n)
+κωμωδία
+detective (n)
+ντετέκτιβ 
+jazz (n)
+τζαζ
+novel (n)
+μυθιστόρημα
+reality (n)
+πραγματικότητα
+wildlife (n)
+άγρια ζωή
+festival (n)
+φεστιβάλ
+pigeon (n)
+περιστέρι
+race (n)
+αγώνας
+tourist attraction (n)
+τουριστικό αξιοθέατο
+boring (adj)
+βαρετός
+horrible (adj)
+φριχτός
+table tennis (n)
+επιτραπέζια αντισφαίριση
+bone (n)
+κόκκαλο
+bread (n)
+ψωμί
+Brie (n)
+μπρι
+Camembert (n)
+καμαμπέρ
+peach (n)
+ροδάκινο
+stall (n)
+πάγκος
+tomato (n)
+ντομάτα
+vegetarian (n)
+χορτοφάγος
+autumn (n)
+φθινόπωρο
+celebration (n)
+γιορτή
+month (n)
+μήνας
+spring (n)
+άνοιξη
+summer (n)
+καλοκαίρι
+winter (n)
+χειμώνας
+reindeer (n)
+τάρανδος
+study (v)
+σπουδάζω
+tractor (n)
+τρακτέρ
+understand (v)
+καταλαβαίνω
+board (n)
+πίνακας
+book (n)
+βιβλίο
+classmate (n)
+συμμαθητής
+classroom (n)
+σχολική αίθουσα
+college (n)
+κολλέγιο
+Maasai (n)
+Μασάι
+pen (n)
+στυλό
+pencil (n)
+μολύβι
+school (n)
+σχολείο
+student (n)
+μαθητής
+university (n)
+πανεπιστήμιο 
+unusual (adj)
+ασυνήθιστος
+village (n)
+χωριό
+climbing (n)
+αναρρίχηση 
+cloudy (adj)
+συννεφιασμένος
+cycling (n)
+ποδηλασία
+golf (n)
+γκολφ
+photo (n)
+φωτογραφία
+rainy (adj)
+βροχερός
+running (n)
+τρέξιμο
+season (n)
+εποχή
+skiing (n)
+σκι
+snowy (adj)
+χιονισμένος
+sunny (adj)
+ηλιόλουστους
+wet (adj)
+βρεμένος
+windy (adj)
+ανεμώδης
+bored (adj)
+βαριεστημένος
+hungry (adj)
+πεινασμένος
+thirsty (adj)
+διψασμένος
+tired (adj)
+κουρασμένος
+couple (n)
+ζευγάρι
+fire (n)
+φωτιά
+hard (adj)
+σκληρός
+journey (n)
+ταξίδι
+sleep (v)
+κοιμάμαι
+snow (n)
+χιόνι
+soft (adj)
+μαλακός
+travel (v)
+ταξιδεύω
+computer (n)
+υπολογιστής
+helicopter (n)
+ελικόπτερο
+modern (adj)
+σύγχρονος
+breakfast (n)
+πρωινό
+dinner (n)
+δείπνο
+exercise (n)
+άσκηση
+lunch (n)
+μεσημεριανό
+archaeologist (n)
+αρχαιολόγος
+article (n)
+άρθρο
+colleague (n)
+συνάδελφος
+geologist (n)
+γεωλόγος
+laboratory (n)
+εργαστήριο
+lecture (n)
+διάλεξη
+noisy (adj)
+θορυβώδης
+object (n)
+αντικείμενο
+report (n)
+αναφορά
+teach (v)
+διδάσκω
+automatic (adj)
+αυτόματος
+conservation (n)
+προστασία
+crisis (n)
+κρίση
+domestic (adj)
+εγχώριος
+hunt (v)
+κυνήγι
+jaguar (n)
+ιαγουάρος
+leopard (n)
+λεοπάρδαλη
+radio collar (n)
+κολάρο-πομπός
+tiger (n)
+τίγρης
+wild (adj)
+άγριος
+call (v)
+καλώ
+drink (v)
+πίνω
+eat (v)
+τρώω
+gentle (adj)
+τρυφερός
+greet (v)
+χαιρετώ
+hand (n)
+χέρι
+have a bath (v)
+κάνω μπάνιο
+identify (v)
+αναγνωρίζω
+individual (n)
+μεμονωμένος
+jeep (n)
+τζιπ
+lie down (phr v)
+ξαπλώνω
+trunk (n)
+προβοσκίδα
+flying (n)
+πτήση
+interesting (adj)
+ενδιαφέρων
+plane (n)
+αεροπλάνο
+train (n)
+τρένο 
+bag (n)
+τσάντα
+boot (n)
+μπότα
+coat (n)
+παλτό
+dress (n)
+φόρεμα
+hat (n)
+καπέλο
+jacket (n)
+σακάκι
+jeans (n)
+τζιν
+jumper (n)
+πουλόβερ
+pocket (n)
+τσέπη
+sandals (n)
+σανδάλια
+scarf (n)
+κασκόλ
+shirt (n)
+πουκάμισο
+shoe (n)
+παπούτσι
+shorts (n)
+σορτς
+skirt (n)
+φούστα
+suitcase (n)
+βαλίτσα
+top (n)
+μπλούζα
+trousers (n)
+παντελόνι
+T-shirt (n)
+μπλουζάκι μακό
+armchair (n)
+πολυθρόνα
+bed (n)
+κρεβάτι
+chair (n)
+καρέκλα
+cheap (adj)
+φτηνός
+comfortable (adj)
+άνετος
+desk (n)
+γραφείο
+fridge (n)
+ψυγείο
+hostel (n)
+ξενώνας
+lamp (n)
+λάμπα
+shower (n)
+ντους
+sofa (n)
+καναπές
+table (n)
+τραπέζι
+TV (n)
+τηλεόραση
+wardrobe (n)
+γκαρνταρόμπα
+adventurous (adj)
+περιπετειώδης
+diving (n)
+κατάδυση
+hiking (n)
+πεζοπορία
+hitch-hike (v)
+ταξιδεύω με οτοστόπ
+horse riding (n)
+ιππασία
+in advance (exp)
+εκ των προτέρων 
+lifetime (n)
+ολόκληρη ζωή
+opera (n)
+όπερα
+option (n)
+επιλογή
+rail (n)
+σιδηροδρομικός
+sightseeing (n)
+περιήγηση στα αξιοθέατα 
+view (n)
+θέα
+alarm (n)
+ξυπνητήρι
+desk (n)
+γραφείο
+meal (n)
+γεύμα
+menu (n)
+μενού
+ancient (adj)
+αρχαίος
+bang (n)
+μπανγκ
+canoe (n)
+κανό
+crash (v)
+τρακάρω
+donkey (n)
+γάιδαρος
+gold (n)
+χρυσάφι
+goldmine (n)
+χρυσορυχείο
+landmine (n)
+νάρκη
+llama (n)
+λάμα
+loud (adj)
+δυνατός
+plate (n)
+πιάτο
+sand dune (n)
+αμμόλοφος
+sheep (n)
+πρόβατο
+track (n)
+μονοπάτι
+digital (adj)
+ψηφιακός
+disc (n)
+δίσκος
+history (n)
+ιστορία
+invention (n)
+εφεύρεση 
+recorder (n)
+καταγραφικό
+television (n)
+τηλεόραση
+test (n)
+τεστ
+video (n)
+βίντεο
+captain (n)
+καπετάνιος
+expedition (n)
+αποστολή
+North Pole (n)
+Βόρειος Πόλος
+Portuguese (adj)
+Πορτογάλος
+space (n)
+διάστημα
+successful (adj)
+επιτυχημένος
+basketball (n)
+καλαθοσφαίριση 
+champion (n)
+πρωταθλητής
+friendly (adj)
+φιλικός
+funny (adj)
+αστείος
+hero (n)
+ήρωας
+nature (n)
+φύση
+sportsman (n)
+αθλητής
+ago (adv)
+πριν
+celebrity (n)
+διασημότητα
+empire (n)
+αυτοκρατορία
+land (n)
+γη 
+leader (n)
+ηγέτης
+now (adv)
+τώρα
+president (n)
+πρόεδρος
+prisoner (n)
+αιχμάλωτος
+today (adv)
+σήμερα
+war (n)
+πόλεμος
+late (adj)
+αργά
+seat (n)
+θέση
+sorry (adj)
+συγγνώμη
+worry (v)
+ανησυχώ
+astronaut (n)
+αστροναύτης
+die (v)
+πεθαίνω
+goal (n)
+στόχος
+Mercury (n)
+Ερμής
+orbit (v)
+τροχιά
+programme (n)
+πρόγραμμα
+satellite (n)
+δορυφόρος
+shuttle (n)
+διαστημικό λεωφορείο 
+speech (n)
+λόγος
+Sputnik (n)
+Σπούτνικ
+success (n)
+επιτυχία
+tragedy (n)
+τραγωδία
+arrive (v)
+φτάνω
+discover (v)
+ανακαλύπτω
+leave (v)
+αναχωρώ
+arrow (n)
+βέλος
+body (n)
+σώμα
+discovery (n)
+ανακάλυψη
+investigation (n)
+έρευνα
+kill (v)
+σκοτώνω
+knife (n)
+μαχαίρι
+mountaineer (n)
+ορειβάτης
+mystery (n)
+μυστήριο
+scientific (adj)
+επιστημονικός
+adventure (n)
+περιπέτεια
+dangerous (adj)
+επικίνδυνος
+film (v)
+ταινία
+pool (n)
+πισίνα
+watch (v)
+παρακολουθώ
+crazy (adj)
+τρελός
+cut (v)
+κόβω
+deep (adj)
+βαθύς
+species (n)
+είδος
+traffic (n)
+κίνηση
+delicious (adj)
+νόστιμος
+last (adj)
+τελευταίος
+pay (v)
+πληρώνω
+shark (n)
+καρχαρίας
+acidic (adj)
+όξινος
+balloon (n)
+μπαλόνι
+chemist (n)
+χημικός
+close (adj)
+κλειστός
+earthy (adj)
+γήινος 
+experience (v)
+εμπειρία
+flower (n)
+λουλούδι
+juicy (adj)
+ζουμερός
+man-made (adj)
+χειροποίητο
+perfume (n)
+άρωμα
+scent (n)
+μυρωδιά 
+stephanotis (n)
+στεφανωτή
+taste (v)
+γεύομαι
+watery (adj)
+νερουλός
+factory (n)
+εργοστάσιο
+weekend (n)
+σαββατοκύριακο
+bath (n)
+μπάνιο
+bathe (v)
+πλένομαι
+bathroom (n)
+λουτρό
+bedroom (n)
+κρεβατοκάμαρα
+cooking (n)
+μαγειρική
+dining room (n)
+τραπεζαρία
+ironing (n)
+σιδέρωμα
+living room (n)
+καθιστικό
+mat (n)
+χαλάκι
+motorbike (n)
+μοτοποδήλατο
+read (v)
+διαβάζω
+sit (v)
+κάθομαι
+smile (v)
+χαμογελάω
+talk (v)
+μιλάω
+toilet (n)
+τουαλέτα
+wash (v)
+πλένομαι
+wear (v)
+φοράω
+folk (n)
+φολκ
+free (adj)
+ελεύθερος
+sale (n)
+πώληση 
+shopping (n)
+ψώνια
+stuff (n)
+πράγματα
+trip (n)
+ταξίδι
+builder (n)
+χτίστης
+community (n)
+κοινότητα 
+dream house (n)
+το σπίτι των ονείρων σας
+fun (adj)
+αστείος
+organisation (n)
+οργανισμός
+professional (adj)
+επαγγελματικός
+project (n)
+έργο
+roof (n)
+στέγη
+tornado (n)
+ανεμοστρόβιλος
+tornado-resistant (adj)
+ανθεκτικό στους ανεμοστρόβιλους
+voluntary (adj)
+εθελοντικός
+volunteer (n)
+εθελοντής
+adult (n)
+ενήλικας
+brochure (n)
+φυλλάδιο
+castle (n)
+κάστρο
+court (n)
+γήπεδο
+exhibition (n)
+έκθεση
+finish (v)
+τελειώνω
+return ticket (n)
+εισιτήριο επιστροφής
+special (adj)
+ειδικός
+concert (n)
+συναυλία
+flying fish (n)
+ιπτάμενα ψάρια
+group (n)
+ομάδα
+guitar (n)
+κιθάρα
+main (adj)
+κύριος
+musician (n)
+μουσικός
+painter (n)
+ζωγράφος
+prepare (v)
+προετοιμάζω
+rest (v)
+ξεκουράζομαι
+song (n)
+τραγούδι
