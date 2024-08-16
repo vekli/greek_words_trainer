@@ -3,14 +3,14 @@ import random
 import pickle
 import os
 import sys
-#from io import BytesIO
+from io import BytesIO
 import pygame
 import time
 
 
 
-workbuffer_size=3       #How many words in repeating buffer
-penalty=2               #How many correct andwers before memorized
+workbuffer_size=15       #How many words in repeating buffer
+penalty=5               #How many correct andwers before memorized
 
 
 dictionaryIn={}
@@ -34,10 +34,14 @@ def play_word(word):
   tts = gTTS(word,lang="el", slow=False)
   pf=open('tmp.mp3','wb')
   tts.write_to_fp(pf)
-  pf2=BytesIO(open('tmp.mp3','rb').read())
   pf.close()
-  xx=pygame.mixer.Sound(pf2)
-  pygame.mixer.Sound.play(xx)
+  pf2=BytesIO(open('tmp.mp3','rb').read())
+   
+  if pf2:
+      xx=pygame.mixer.Sound(pf2)
+      pygame.mixer.Sound.play(xx)
+  else:
+      print("gTTS error")
   
 def remove_tonos(word):
   word_wo_tonos=word
@@ -134,7 +138,8 @@ while True:
            remove_word_from_buffer(Gword, Eword)  
            
            while len(workbuffer) < workbuffer_size:
-            a,b= random.choice(list(dictionaryOut.items())) 
+            a,b= random.choice(list(dictionaryOut.items()))
+            play_word(a)
             if test_word(a,b):
               a,b = random.choice(list(dictionaryIn.items()))
               del dictionaryIn[a]    
