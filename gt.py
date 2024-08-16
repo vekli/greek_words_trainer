@@ -18,9 +18,9 @@ dictionaryOut={}
 workbuffer={}
 penaltybuffer={}
 
-
 profile_name=sys.argv[1]
 mode=sys.argv[2]
+   
 
 words_counter=0
 bad_counter=0

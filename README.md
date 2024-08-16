@@ -2,8 +2,6 @@
 
 pip install gTTS
 
-pip install pickle
-
 pip install pygame
 
 
