@@ -1,11 +1,17 @@
+from gtts import gTTS
 import random
 import pickle
 import os
 import sys
+from playsound import playsound
+from io import BytesIO
+import pygame
+import time
 
 
-workbuffer_size=2       #How many words in repeating buffer
-penalty=2               #How many correct andwers before memorized
+
+workbuffer_size=10       #How many words in repeating buffer
+penalty=3               #How many correct andwers before memorized
 
 
 dictionaryIn={}
@@ -21,6 +27,15 @@ dictO='dictO_'+profile_name+'.uf'
 dictB='dictB_'+profile_name+'.uf'
 dictP='dictP_'+profile_name+'.uf'
 
+def play_word(word):
+  tts = gTTS(word,lang="el", slow=False)
+  pf=open('tmp.mp3','wb')
+  tts.write_to_fp(pf)
+  pf2=BytesIO(open('tmp.mp3','rb').read())
+  pf.close()
+  xx=pygame.mixer.Sound(pf2)
+  pygame.mixer.Sound.play(xx)
+
 if (os.path.isfile(dictI) and os.path.isfile(dictO) and os.path.isfile(dictB) and os.path.isfile(dictP)) is False:
   #First start
   with open('list.txt',encoding="utf-8") as f:
@@ -34,8 +49,8 @@ if (os.path.isfile(dictI) and os.path.isfile(dictO) and os.path.isfile(dictB) an
   for  k in range(workbuffer_size): 
    a,b= random.choice(list(dictionaryIn.items()))
    del dictionaryIn[a]
-   workbuffer.update({a:b})
-   penaltybuffer.update({a:penalty})
+   workbuffer.update({a:b})  
+   penaltybuffer.update({a:random.randint(1,penalty)})
   dictionaryOut.update({"0":"0"})
   with open(dictI, 'wb') as f:
     pickle.dump(dictionaryIn, f)
@@ -62,6 +77,7 @@ else:
     f.close()
 
 
+pygame.mixer.init()
 
 while True:
   Gword, Eword = random.choice(list(workbuffer.items()))
@@ -69,7 +85,9 @@ while True:
   print(Gword,end='')
   print(" - ",end='')
   print(Eword)
-
+  
+  play_word(Gword)
+ 
   Gword_hidden=Gword
   Gword_hidden=Gword_hidden.replace("\u03AC","\u03B1")     #α
   Gword_hidden=Gword_hidden.replace("\u03AD","\u03B5")     #ε
@@ -91,8 +109,12 @@ while True:
         print("  Correct.")
         penaltybuffer[Gword]-=1
         penaltybuffer.update({Gword:penaltybuffer[Gword]})
+        #play_word("Μπράβο!")
+        time.sleep(1)
   else:
         print("  Incorrect.")
+        #play_word("Κακώς!")
+        time.sleep(1)
   if penaltybuffer[Gword] == 0:  
       del workbuffer[Gword]
       dictionaryOut.update({Gword:Eword})
@@ -101,7 +123,9 @@ while True:
        del dictionaryIn[a]
        workbuffer.update({a:b})
        penaltybuffer.update({a:penalty})
-      
+       print("New word added")
+ 
+  print("------------------------------------")   
   with open(dictI, 'wb') as f:
     pickle.dump(dictionaryIn, f)
   with open(dictO, 'wb') as f:
@@ -110,7 +134,7 @@ while True:
     pickle.dump(workbuffer, f)
   with open(dictP, 'wb') as f:
     pickle.dump(penaltybuffer, f)
-  print("------------------------------------")
+  
 
 
  
