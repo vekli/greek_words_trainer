@@ -61,7 +61,15 @@ def play_word(word):
       pygame.mixer.Sound.play(xx)
   else:
       print("gTTS error")
-  
+      
+      
+def check_vowel(symbol):
+    if symbol=="\u03B1" or symbol=="\u03B5" or symbol=="\u03BF" or symbol=="\u03C5" or symbol=="\u03C9" or symbol=="\u03B7" or symbol=="\u03B9" or symbol=="\u0391" or symbol=="\u0395"or symbol=="\u039F"or symbol=="\u03A5" or symbol=="\u03A9" or symbol=="\u0397" or symbol=="\u0399":      
+      return 1
+    else:
+      return 0
+      
+      
 def remove_tonos(word):
   word_wo_tonos=word
   word_wo_tonos=word_wo_tonos.replace("\u03AC","\u03B1")     #α
@@ -90,6 +98,23 @@ def test_word(Gw,Ew):
   print(" - ",end='')
   print(Ew)
   Gword_hidden=remove_tonos(Gw)
+  
+  
+  Gword_hidden_list=list(Gword_hidden)
+  for k in range(0,len(Gword_hidden_list)): 
+      print(Gword_hidden_list[k],end='')  
+      if check_vowel(Gword_hidden_list[k]) and k!=(len(Gword_hidden_list)-1) and check_vowel(Gword_hidden_list[k+1])==0:
+        print("-",end='')
+  print("")     
+  
+  """
+  for k in range(0,len(Gword_hidden_list)): 
+      print(Gword_hidden_list[k],end='')  
+      if k!=(len(Gword_hidden_list)-1):
+        print("-",end='')
+  print("") 
+  """
+  
   input_var = input("> ")
   if Gword_hidden==input_var:
    return 1
