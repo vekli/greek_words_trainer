@@ -6,7 +6,7 @@ import sys
 from io import BytesIO
 import pygame
 import time
-
+from colorama import Fore
 
 
 workbuffer_size=15       #How many words in repeating buffer
@@ -101,11 +101,14 @@ def test_word(Gw,Ew):
   
   
   Gword_hidden_list=list(Gword_hidden)
-  for k in range(0,len(Gword_hidden_list)): 
-      print(Gword_hidden_list[k],end='')  
-      if check_vowel(Gword_hidden_list[k]) and k!=(len(Gword_hidden_list)-1) and check_vowel(Gword_hidden_list[k+1])==0:
+  for k in range(0,len(Gword_hidden_list)):
+      if check_vowel(Gword_hidden_list[k]):
+       print(f"{Fore.RED}"+Gword_hidden_list[k],end='') 
+      else:
+       print(f"{Fore.BLUE}"+Gword_hidden_list[k]+f"{Fore.WHITE}",end='')  
+      if check_vowel(Gword_hidden_list[k]) and k!=(len(Gword_hidden_list)-1) and check_vowel(Gword_hidden_list[k+1])==0 and Gword_hidden_list[k+1]!="\u0020":
         print("-",end='')
-  print("")     
+  print(f"{Fore.WHITE}")     
   
   """
   for k in range(0,len(Gword_hidden_list)): 
@@ -185,7 +188,7 @@ while True:
   play_word(Gword)
  
   if test_word(Gword,Eword):
-        print("  Correct.")
+        print(f"{Fore.GREEN}  Correct.{Fore.WHITE}")
         penaltybuffer[Gword]-=1
         penaltybuffer.update({Gword:penaltybuffer[Gword]})
         if penaltybuffer[Gword] == 0:  
@@ -219,7 +222,7 @@ while True:
         if(mode == "dictant"):
           print("  ",end='')
           print(Gword) 
-        print("  Incorrect.")
+        print(f"{Fore.RED}   Incorrect.{Fore.WHITE}")
         bad_counter+=1
         #play_word("Κακώς!")
         #time.sleep(1)
