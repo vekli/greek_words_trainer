@@ -99,7 +99,7 @@ def test_word(Gw,Ew):
   print(Ew)
   Gword_hidden=remove_tonos(Gw)
   
-  
+  print("  ",end='')
   Gword_hidden_list=list(Gword_hidden)
   for k in range(0,len(Gword_hidden_list)):
       if check_vowel(Gword_hidden_list[k]):
