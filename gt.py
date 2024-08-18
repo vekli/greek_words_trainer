@@ -18,9 +18,28 @@ dictionaryOut={}
 workbuffer={}
 penaltybuffer={}
 
-profile_name=sys.argv[1]
-mode=sys.argv[2]
-   
+list_beginner="list_beginner.txt"
+list_preintermediate="list_preintermediate.txt"
+list_intermediate="list_intermediate.txt"
+list_upperintermediate="list_upperintermediate.txt"
+list_advanced="list_advanced.txt"
+
+if len(sys.argv)==4:
+  profile_name=sys.argv[1]
+  mode=sys.argv[2]
+  level=sys.argv[3]
+elif len(sys.argv)==3:
+  profile_name=sys.argv[1]
+  mode=sys.argv[2]
+  level="beginner"
+elif len(sys.argv)==2:
+  profile_name=sys.argv[1]
+  mode="copy"
+  level="beginner"
+elif len(sys.argv)==1:
+  profile_name="test"
+  mode="copy"
+  level="beginner"
 
 words_counter=0
 bad_counter=0
@@ -84,7 +103,17 @@ def remove_word_from_buffer(Gw,Ew):
         
 if (os.path.isfile(dictI) and os.path.isfile(dictO) and os.path.isfile(dictB) and os.path.isfile(dictP)) is False:
   #First start
-  with open('list.txt',encoding="utf-8") as f:
+  if level=="beginner":
+   list_file=list_beginner
+  if level=="pintermediate":
+   list_file=list_preintermediate
+  if level=="intermediate":   
+   list_file=list_intermediate
+  if level=="uintermediate":
+   list_file=list_upperintermediate
+  if level=="advanced":
+   list_file=list_advanced
+  with open(list_file,encoding="utf-8") as f: 
     for line in f:
      line=line.rstrip()
      translation=line
